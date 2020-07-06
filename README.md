@@ -18,29 +18,29 @@ Java 1.8, Jersey, Maven v4, MySQL v5.1 or above
 
 ## Project Structure
 * :open_file_folder: **/src/main/java/in/eko/service/**
-  * :file_folder: **model/**
+  * :file_folder: [**model/**](/src/main/java/in/eko/service/model/)
     * Contains POJO/Business Objects
-  * :file_folder: **service/**
+  * :file_folder: [**service/**](/src/main/java/in/eko/service/service/)
     * Contains service provider integration business logic
-  * :file_folder: **persistence/**
+  * :file_folder: [**persistence/**](/src/main/java/in/eko/service/persistence/)
     * Contains database query language
-  * :file_folder: **requestView/**
+  * :file_folder: [**requestView/**](/src/main/java/in/eko/service/requestView/)
     * Contains generic parameters used in request
-  * :file_folder: **responseView/**
+  * :file_folder: [**responseView/**](/src/main/java/in/eko/service/responseView/)
     * Contains generic parameters used in response
-  * :file_folder: **factory/**
+  * :file_folder: [**factory/**](/src/main/java/in/eko/service/factory/)
     * Contains generic methods used in service
-  * :file_folder: **resources/**
+  * :file_folder: [****](/src/main/java/in/eko/service/resources/)
     * Contains incoming API endpoints
-  * :file_folder: **exception/**
+  * :file_folder: [**exception/**](/src/main/java/in/eko/service/exception/)
     * Contains custom exceptions
-  * :file_folder: **tasks/**
+  * :file_folder: [**tasks/**](/src/main/java/in/eko/service/tasks/)
     * Contains schedular/batchjobs
-  * :file_folder: **util/**
+  * :file_folder: [**util/**](/src/main/java/in/eko/service/util/)
     * Contains constants and helper methods
-  * :file_folder: **hibernate/**
+  * :file_folder: [**hibernate/**](/src/main/java/in/eko/service/hibernate/)
     * Contains hibernate connection management
-  * :file_folder: **schema/**
+  * :file_folder: [**schema/**](/src/main/java/in/eko/service/schema/)
     * Contains database schema
 
 ## DB Schema Path
