@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="in.eko.service.finowebservice.model.TaskHistoryBO"
+		table="task_history">
+		<id name="id" column="id" type="integer">
+			<generator class="native" />
+		</id>
+		<property name="taskId" column="taskId" />
+		<property name="taskName" column="taskName" />
+		<property name="startTime" column="startTime" />
+		<property name="endTime" column="endTime" />
+		<property name="status" column="status" />
+	</class>
+</hibernate-mapping>

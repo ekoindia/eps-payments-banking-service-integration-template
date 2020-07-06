@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class
+		name="in.eko.service.finowebservice.model.TaskConfigurationBO"
+		table="task_configuration">
+		<id name="id" column="id" type="integer">
+			<generator class="native" />
+		</id>
+		<property name="taskId" column="task_id" />
+		<property name="taskName" column="name" />
+		<property name="taskInterval" column="task_interval" />
+		<property name="status" column="status" />
+		<property name="source" column="source" />
+	</class>
+</hibernate-mapping>

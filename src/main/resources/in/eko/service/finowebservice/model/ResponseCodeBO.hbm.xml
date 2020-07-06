@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="in.eko.service.finowebservice.model.ResponseCodeBO"
+		table="response_code">
+
+		<id name="id" type="java.lang.Integer">
+			<column name="id" />
+		</id>
+
+		<property name="responseCode" column="response_code" />
+		<property name="description" column="description" />
+		<property name="detailedDescription" column="detailed_description" />
+		<property name="declineType" column="decline_type" />
+		<property name="status" column="status" />
+		<property name="enquiryStatus" column="enquiryStatus" />
+		<property name="source" column="source" />
+
+	</class>
+</hibernate-mapping>

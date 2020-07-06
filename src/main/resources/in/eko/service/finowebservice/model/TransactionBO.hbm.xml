@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="in.eko.service..finowebservice.model.TransactionBO"
+		table="transactions">
+		<id name="id" column="id" type="integer">
+			<generator class="native" />
+		</id>
+		<property name="ekoTrxnId" column="ekotrxnid" />
+		<property name="txTime" column="txtime" />
+		<property name="beneficiaryIfsccode" column="beneficiaryIfsccode" />
+		<property name="beneficiaryAccountNumber" column="beneficiaryAccountNumber" />
+		<property name="beneName" column="bene_name" />
+		<property name="depositorName" column="depositorName" />
+		<property name="depositorCell" column="depositorCell" />
+		<property name="requestType" column="requestype" />
+		<property name="transactionMode" column="transaction_mode" />
+		<property name="amount" column="amount" />
+		<property name="remarks" column="remarks" />
+		<property name="trackingNumber" column="trackingNumber" />
+		<property name="status" column="status" />
+		<property name="reconAttempt" column="reconattempt" />
+		<property name="responsecode" column="responsecode" />
+		<property name="bankTrxnId" column="bankTrxnId" />
+		<property name="callbackStatus" column="callbackStatus" />
+		<property name="source" column="source" />
+		<property name="utrNumber" column="utr_number" />
+		<property name="lastReconAt" column="last_recon_at" />
+	</class>
+</hibernate-mapping>

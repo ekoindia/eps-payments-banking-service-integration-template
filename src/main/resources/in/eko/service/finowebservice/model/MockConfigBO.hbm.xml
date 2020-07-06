@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+	<class name="in.eko.service.finowebservice.model.MockConfigBO"
+		table="mock_config">
+
+		<id name="configId" type="java.lang.Integer">
+			<column name="configId" />
+		</id>
+
+		<property name="configKey" column="configKey" />
+		<property name="configValue" column="configValue" />
+		<property name="description" column="description" />
+		<property name="source" column="source" />
+
+	</class>
+</hibernate-mapping>
