@@ -30,7 +30,7 @@ Java 1.8, Jersey, Maven v4, MySQL v5.1 or above
     * Contains generic parameters used in response
   * :file_folder: [**factory/**](/src/main/java/in/eko/service/factory/)
     * Contains generic methods used in service
-  * :file_folder: [****](/src/main/java/in/eko/service/resources/)
+  * :file_folder: [**resources/**](/src/main/java/in/eko/service/resources/)
     * Contains incoming API endpoints
   * :file_folder: [**exception/**](/src/main/java/in/eko/service/exception/)
     * Contains custom exceptions
