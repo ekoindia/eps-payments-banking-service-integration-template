@@ -17,30 +17,30 @@ Java 1.8, Jersey, Maven v4, MySQL v5.1 or above
 
 
 ## Project Structure
-* 📂 **/src/main/java/in/eko/service/**
-  * 📁 **model/**
+* :open_file_folder: **/src/main/java/in/eko/service/**
+  * :file_folder: **model/**
     * Contains POJO/Business Objects
-  * 📁 **service/**
+  * :file_folder: **service/**
     * Contains service provider integration business logic
-  * 📁 **persistence/**
+  * :file_folder: **persistence/**
     * Contains database query language
-  * 📁 **requestView/**
+  * :file_folder: **requestView/**
     * Contains generic parameters used in request
-  * 📁 **responseView/**
+  * :file_folder: **responseView/**
     * Contains generic parameters used in response
-  * 📁 **factory/**
+  * :file_folder: **factory/**
     * Contains generic methods used in service
-  * 📁 **resources/**
+  * :file_folder: **resources/**
     * Contains incoming API endpoints
-  * 📁 **exception/**
+  * :file_folder: **exception/**
     * Contains custom exceptions
-  * 📁 **tasks/**
+  * :file_folder: **tasks/**
     * Contains schedular/batchjobs
-  * 📁 **util/**
+  * :file_folder: **util/**
     * Contains constants and helper methods
-  * 📁 **hibernate/**
+  * :file_folder: **hibernate/**
     * Contains hibernate connection management
-  * 📁 **schema/**
+  * :file_folder: **schema/**
     * Contains database schema
 
 ## DB Schema Path
