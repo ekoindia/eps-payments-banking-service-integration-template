@@ -13,7 +13,7 @@ _WIP_
 
 
 ## Technology Stack
-Java 1.8, Jersey, Maven v4, MySQL v5.1 or above
+![Java 1.8](https://img.shields.io/badge/Java-1.8-blue)  ![Jersey](https://img.shields.io/badge/Jersey-2.22-green)  ![Maven 4](https://img.shields.io/badge/Maven-4-blueviolet)  ![MySQL 5.1+](https://img.shields.io/badge/MySQL-5.1+-yellowgreen)
 
 
 ## Project Structure
