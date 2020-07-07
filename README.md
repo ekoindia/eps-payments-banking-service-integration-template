@@ -17,7 +17,7 @@ Java 1.8, Jersey, Maven v4, MySQL v5.1 or above
 
 
 ## Project Structure
-* :open_file_folder: **/src/main/java/in/eko/service/**
+* :open_file_folder: [**/src/main/java/in/eko/service/**](/src/main/java/in/eko/service/)
   * :file_folder: [**model/**](/src/main/java/in/eko/service/model/)
     * Contains POJO/Business Objects
   * :file_folder: [**service/**](/src/main/java/in/eko/service/service/)
