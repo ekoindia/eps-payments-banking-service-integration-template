@@ -18,8 +18,8 @@ _WIP_
 
 ## Project Structure
 * :open_file_folder: [**/src/main/java/in/eko/service/**](/src/main/java/in/eko/service/)
-  * :file_folder: [**model/**](/src/main/java/in/eko/service/model/)  `contains POJO/business objects.`
-  * :file_folder: [**service/**](/src/main/java/in/eko/service/service/)  contains service provider integration business logic.
+  * :file_folder: [**model/**](/src/main/java/in/eko/service/model/)  `POJO/Business Objects`
+  * :file_folder: [**service/**](/src/main/java/in/eko/service/service/)  `service provider integration business logic`
   * :file_folder: [**persistence/**](/src/main/java/in/eko/service/persistence/)  contains database query language.
   * :file_folder: [**requestView/**](/src/main/java/in/eko/service/requestView/)  contains generic parameter used in request.
   * :file_folder: [**responseView/**](/src/main/java/in/eko/service/responseView/)  contains generic parameters used in response.
