@@ -26,7 +26,7 @@ _WIP_
   * :file_folder: [**factory/**](/src/main/java/in/eko/service/factory/)  `Factory design patterns, methods, objects, etc.`
   * :file_folder: [**resources/**](/src/main/java/in/eko/service/resources/)  `API endpoints`
   * :file_folder: [**exception/**](/src/main/java/in/eko/service/exception/)  `Custom exceptions`
-  * :file_folder: [**tasks/**](/src/main/java/in/eko/service/tasks/)  `Batch jobs to settle transactions`
+  * :file_folder: [**tasks/**](/src/main/java/in/eko/service/tasks/)  `Batch jobs definition and its configurations`
   * :file_folder: [**util/**](/src/main/java/in/eko/service/util/)  `Constants and helper methods`
   * :file_folder: [**hibernate/**](/src/main/java/in/eko/service/hibernate/)  `Application connection management`
   * :file_folder: [**schema/**](/src/main/java/in/eko/service/schema/)  `Data Definition Language`
