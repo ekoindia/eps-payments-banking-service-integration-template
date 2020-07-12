@@ -32,7 +32,7 @@ _WIP_
   * :file_folder: [**schema/**](/src/main/java/in/eko/service/schema/)  `Data Definition Language`
 
 ## Database Schema Path
-*(/src/main/java/in/eko/service/schema/)
+[**(/src/main/java/in/eko/service/schema/)**]
 
 ## How to setup project
 
