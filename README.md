@@ -36,5 +36,6 @@ _WIP_
 
 ## How to setup project
 
-* Install Java - (https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
-* POM configuration
+* Install Java 8 
+  * (https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
+* Create database
