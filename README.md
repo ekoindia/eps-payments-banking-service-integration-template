@@ -37,5 +37,9 @@ _WIP_
 ## How to setup project
 
 * Install Java 8 
-  * (https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html)
-* Create database
+  * https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
+* Database Setup
+  * Go to path
+    * /src/main/java/in/eko/service/schema/
+    * Login to MySQL using console and execute below command
+      ```source <schema file name>```
