@@ -20,16 +20,16 @@ _WIP_
 * :open_file_folder: [**/src/main/java/in/eko/service/**](/src/main/java/in/eko/service/)
   * :file_folder: [**model/**](/src/main/java/in/eko/service/model/)  `POJO/Business Objects`
   * :file_folder: [**service/**](/src/main/java/in/eko/service/service/)  `Service provider integration business logic`
-  * :file_folder: [**persistence/**](/src/main/java/in/eko/service/persistence/)  `Database query language`
+  * :file_folder: [**persistence/**](/src/main/java/in/eko/service/persistence/)  `Database Query Language`
   * :file_folder: [**requestView/**](/src/main/java/in/eko/service/requestView/)  `Parameters used in request`
   * :file_folder: [**responseView/**](/src/main/java/in/eko/service/responseView/)  `Parameters used in response`
   * :file_folder: [**factory/**](/src/main/java/in/eko/service/factory/)  `Factory design patterns, methods, objects, etc.`
   * :file_folder: [**resources/**](/src/main/java/in/eko/service/resources/)  `API endpoints`
-  * :file_folder: [**exception/**](/src/main/java/in/eko/service/exception/)  contains custom exceptions.
-  * :file_folder: [**tasks/**](/src/main/java/in/eko/service/tasks/)  contains schedular/batch jobs.
-  * :file_folder: [**util/**](/src/main/java/in/eko/service/util/)  contains constants and helper methods.
-  * :file_folder: [**hibernate/**](/src/main/java/in/eko/service/hibernate/)  contains hibernate connection management to the database.
-  * :file_folder: [**schema/**](/src/main/java/in/eko/service/schema/)  contains database schema.
+  * :file_folder: [**exception/**](/src/main/java/in/eko/service/exception/)  `Custom exceptions`
+  * :file_folder: [**tasks/**](/src/main/java/in/eko/service/tasks/)  `Batch jobs to settle transactions`
+  * :file_folder: [**util/**](/src/main/java/in/eko/service/util/)  `Constants and helper methods`
+  * :file_folder: [**hibernate/**](/src/main/java/in/eko/service/hibernate/)  `Application connection management`
+  * :file_folder: [**schema/**](/src/main/java/in/eko/service/schema/)  `Data Definition Language`
 
 ## DB Schema Path
 /src/main/java/in/eko/service/schema
