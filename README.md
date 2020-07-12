@@ -41,4 +41,4 @@ _WIP_
 * Database Setup
   * Go to path - /src/main/java/in/eko/service/schema/
   * Login to MySQL using console and execute below command 
-    ```source <schema file name>```
+  * ```source <schema file name>```
