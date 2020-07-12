@@ -24,7 +24,7 @@ _WIP_
   * :file_folder: [**requestView/**](/src/main/java/in/eko/service/requestView/)  `Parameters used in request`
   * :file_folder: [**responseView/**](/src/main/java/in/eko/service/responseView/)  `Parameters used in response`
   * :file_folder: [**factory/**](/src/main/java/in/eko/service/factory/)  `Factory design patterns, methods, objects, etc.`
-  * :file_folder: [**resources/**](/src/main/java/in/eko/service/resources/)  contains incoming API endpoints.
+  * :file_folder: [**resources/**](/src/main/java/in/eko/service/resources/)  `API endpoints`
   * :file_folder: [**exception/**](/src/main/java/in/eko/service/exception/)  contains custom exceptions.
   * :file_folder: [**tasks/**](/src/main/java/in/eko/service/tasks/)  contains schedular/batch jobs.
   * :file_folder: [**util/**](/src/main/java/in/eko/service/util/)  contains constants and helper methods.
