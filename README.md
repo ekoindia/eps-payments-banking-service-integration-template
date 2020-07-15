@@ -37,6 +37,13 @@ _WIP_
 * Install Java 8 
   * https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
 * Database Setup
-  * Go to path - /src/main/java/in/eko/service/schema/
+  * Go to path - src/main/java/in/eko/service/schema/
   * Login to MySQL using console and execute the following command<br>
     `source service_db_schema.sql`
+* Setup database:
+  ```bash
+  cd src/main/java/in/eko/service/schema/
+  mysql
+  source service_db_schema.sql
+  ```
+  
