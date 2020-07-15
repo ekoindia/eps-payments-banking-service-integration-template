@@ -41,7 +41,7 @@ _WIP_
   * Login to MySQL using console and execute the following command<br>
     `source service_db_schema.sql`
 * Setup database<br>
-  * Run the following commands in the project directory:
+  * Run the following commands in a terminal the project root directory:
     ```bash
     cd src/main/java/in/eko/service/schema/
     mysql
