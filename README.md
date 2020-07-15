@@ -31,8 +31,6 @@ _WIP_
   * :file_folder: [**hibernate/**](/src/main/java/in/eko/service/hibernate/)  `Application connection management`
   * :file_folder: [**schema/**](/src/main/java/in/eko/service/schema/)  `Data Definition Language`
 
-## Database Schema Path
-/src/main/java/in/eko/service/schema/
 
 ## How to setup project
 
@@ -40,4 +38,5 @@ _WIP_
   * https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html
 * Database Setup
   * Go to path - /src/main/java/in/eko/service/schema/
-  * Login to MySQL using console and execute the following command ```source <schema file name>```
+  * Login to MySQL using console and execute the following command 
+    * `source <schema file name>`
