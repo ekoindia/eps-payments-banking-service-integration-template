@@ -46,7 +46,7 @@ _WIP_
     ```
 * Database properties
   * Change the database username and password<br>
-    `hibernate.connection.username=foo`
+    `hibernate.connection.username=foo`<br>
     `hibernate.connection.password=foo@123`
     
   
