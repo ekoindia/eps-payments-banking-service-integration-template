@@ -45,8 +45,8 @@ _WIP_
     source service_db_schema.sql
     ```
 * Database properties
-  * Change the database username and password
-    `hibernate.connection.username=foo
-     hibernate.connection.password=foo@123
-    `
+  * Change the database username and password<br>
+    `hibernate.connection.username=foo`
+    `hibernate.connection.password=foo@123`
+    
   
