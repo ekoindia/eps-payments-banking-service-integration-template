@@ -46,7 +46,9 @@ _WIP_
     ```
 * Database properties (service_template_db.properties)
   * Change the database username and password<br>
-    `hibernate.connection.username=foo`<br>
-    `hibernate.connection.password=foo@123`
+    ```
+    hibernate.connection.username=foo
+    hibernate.connection.password=foo@123
+    ```
     
   
