@@ -44,7 +44,7 @@ _WIP_
     mysql
     source service_db_schema.sql
     ```
-* Database properties
+* Database properties (service_template_db.properties)
   * Change the database username and password<br>
     `hibernate.connection.username=foo`<br>
     `hibernate.connection.password=foo@123`
