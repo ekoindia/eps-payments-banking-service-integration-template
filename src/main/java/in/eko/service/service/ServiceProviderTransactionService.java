@@ -747,7 +747,11 @@ public class ServiceProviderTransactionService extends TransactionService {
 
 	private ServiceProviderTransactionEnquiryRequestView formTransactionEnquiryRequest(String ekoTrxnId) {
 		ServiceProviderTransactionEnquiryRequestView request = new ServiceProviderTransactionEnquiryRequestView();
+		request.setAmount(String.valueOf(requestView.getAmount()));
 		request.setClientUniqueId(ekoTrxnId);
+		
+		//TODO add more parameters if required
+		
 		return request;
 	}
 
