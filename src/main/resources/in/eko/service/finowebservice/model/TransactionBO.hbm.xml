@@ -8,13 +8,7 @@
 		</id>
 		<property name="ekoTrxnId" column="ekotrxnid" />
 		<property name="txTime" column="txtime" />
-		<property name="beneficiaryIfsccode" column="beneficiaryIfsccode" />
-		<property name="beneficiaryAccountNumber" column="beneficiaryAccountNumber" />
-		<property name="beneName" column="bene_name" />
-		<property name="depositorName" column="depositorName" />
-		<property name="depositorCell" column="depositorCell" />
 		<property name="requestType" column="requestype" />
-		<property name="transactionMode" column="transaction_mode" />
 		<property name="amount" column="amount" />
 		<property name="remarks" column="remarks" />
 		<property name="trackingNumber" column="trackingNumber" />
