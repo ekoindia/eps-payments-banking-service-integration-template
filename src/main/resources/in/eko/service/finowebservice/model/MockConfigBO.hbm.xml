@@ -3,7 +3,7 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="in.eko.service.finowebservice.model.MockConfigBO"
+	<class name="in.eko.service.model.MockConfigBO"
 		table="mock_config">
 
 		<id name="configId" type="java.lang.Integer">
