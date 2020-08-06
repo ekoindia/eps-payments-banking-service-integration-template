@@ -3,7 +3,7 @@
 "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
 
 <hibernate-mapping>
-	<class name="in.eko.service.finowebservice.model.ResponseCodeBO"
+	<class name="in.eko.service.model.ResponseCodeBO"
 		table="response_code">
 
 		<id name="id" type="java.lang.Integer">
