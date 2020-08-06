@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>in.eko.service</groupId>
-	<artifactId>eps-payments-integration-service-template</artifactId>
+	<artifactId>eps-payments-banking-service-integration-template</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>webservice-template</name>
