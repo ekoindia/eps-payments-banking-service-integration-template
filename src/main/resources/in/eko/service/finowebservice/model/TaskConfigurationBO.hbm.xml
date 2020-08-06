@@ -2,7 +2,7 @@
 <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
 <hibernate-mapping>
 	<class
-		name="in.eko.service.finowebservice.model.TaskConfigurationBO"
+		name="in.eko.service.model.TaskConfigurationBO"
 		table="task_configuration">
 		<id name="id" column="id" type="integer">
 			<generator class="native" />
