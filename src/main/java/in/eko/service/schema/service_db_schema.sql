@@ -18,6 +18,7 @@ CREATE TABLE IF NOT EXISTS `transactions` (
   `ekotrxnid` int(11) DEFAULT NULL,
   `txtime` datetime DEFAULT NULL,
   `requestype` varchar(2) DEFAULT NULL,
+  `transaction_mode` int(2) DEFAULT NULL,
   `amount` decimal(10,2) DEFAULT NULL,
   `remarks` varchar(50) DEFAULT NULL,
   `trackingNumber` varchar(50) DEFAULT NULL,
@@ -155,7 +156,7 @@ insert ignore into response_code (response_code, description, detailed_descripti
 insert ignore into response_code (response_code, description, detailed_description, decline_type, status, enquiryStatus) values ("30","Invalid message format","Remitting bank / Beneficiary bank has sent the message in wrong format which is not as per NPCI specification","Technical",0,3);
 
 -- task_configuration
-insert ignore into task_configuration values (1,1001,'TransactionEnquiryTask',5,1);
-insert ignore into task_configuration values (2,1002,'PendingCallbackRequestTask',10,1);
-insert ignore into task_configuration values (3,1002,'TransactionRepostingTask',10,1);
+insert ignore into task_configuration (id,task_id,name,task_interval,status) values (1,1001,'TransactionEnquiryTask',5,1);
+insert ignore into task_configuration (id,task_id,name,task_interval,status) values (2,1002,'PendingCallbackRequestTask',10,1);
+insert ignore into task_configuration (id,task_id,name,task_interval,status) values (3,1002,'TransactionRepostingTask',10,1);
 
