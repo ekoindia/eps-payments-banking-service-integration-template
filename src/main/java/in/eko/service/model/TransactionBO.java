@@ -20,6 +20,7 @@ public class TransactionBO implements java.io.Serializable {
 	private String ekoTrxnId;
 	private Date txTime;
 	private String requestType;
+	private Integer transactionMode;
 	private Double amount;
 	private String remarks;
 	private String trackingNumber;
@@ -47,6 +48,7 @@ public class TransactionBO implements java.io.Serializable {
 		this.source = source;
 		this.status = TransactionConstant.REQUEST_READ_TIME_OUT;
 		this.responsecode = TransactionConstant.READ_TIME_OUT;
+		this.transactionMode = trxnReq.getTransactionMode();
 	}
 
 	public Integer getId() {
@@ -79,6 +81,14 @@ public class TransactionBO implements java.io.Serializable {
 
 	public void setRequestType(String requestType) {
 		this.requestType = requestType;
+	}
+
+	public Integer getTransactionMode() {
+		return transactionMode;
+	}
+
+	public void setTransactionMode(Integer transactionMode) {
+		this.transactionMode = transactionMode;
 	}
 
 	public Double getAmount() {
